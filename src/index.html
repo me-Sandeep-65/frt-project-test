@@ -395,8 +395,11 @@
          async function create() {
 
             const data = {
-            id: "3",
-            Name: "Pedro"
+            id: "4",
+            Name: "Pedro",
+            mailId: "abc@email.com",
+            mob: "0192837465",
+            message: "kjgsigsakjgfg"
             };
 
             const gql = `
@@ -404,6 +407,9 @@
                createPerson(item: $item) {
                   id
                   Name
+                  mailId
+                  mob
+                  message
                }
             }`;
 
