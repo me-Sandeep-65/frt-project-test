@@ -405,10 +405,10 @@
             
             const data = {
             id: timestamp,
-            Name: name.value,
-            mailId: mail.value,
-            mob: numb.value,
-            message: comment.value
+            Name: name,
+            mailId: mail,
+            mob: numb,
+            message: comment
             };
 
             const gql = `
@@ -442,15 +442,14 @@
             if (response.data.createPerson) {
                console.log("feedback submitted");
                window.alert("Thank You for your valuable feedback.");
+               name.value= "";
+               mail.value= "";
+               numb.value= "";
+               comment.value= "";
             }else{
                console.log("feedback not submitted");
                window.alert("Feedback not sent. Please try again.");
             }
-
-            name.value= "";
-            mail.value= "";
-            numb.value= "";
-            comment.value= "";
          }
       </script>
       <!-- contact section end -->
