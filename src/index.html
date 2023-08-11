@@ -377,7 +377,7 @@
                         </div>
                         <div class="send_btn">
                            <!-- <div type="text" class="main_bt"><a href="#">SEND</a></div> -->
-                           <button class="button btn111" onclick="create(name,mail,numb,comment)">SEND</button>
+                           <button class="button btn111" onclick="create()">SEND</button>
                         </div>
                      </div>
                   </div>
@@ -394,12 +394,17 @@
       <script>
          async function create() {
 
+            const name = document.getElementById("name").value;
+            const mail = document.getElementById("mail").value;
+            const numb = document.getElementById("numb").value;
+            const comment = document.getElementById("comment").value;
+
             const data = {
             id: "5",
-            Name: "Honey",
-            mailId: "abc@email.com",
-            mob: "0123456789",
-            message: "hello"
+            Name: name,
+            mailId: mail,
+            mob: numb,
+            message: comment
             };
 
             const gql = `
