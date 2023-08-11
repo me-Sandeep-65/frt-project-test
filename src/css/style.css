@@ -839,8 +839,7 @@ a:hover {
 }
 
 .error{
-    border: 5px;
-    color: red;
+    border: 2px solid red;
 }
 
 .send_btn {
