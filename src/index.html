@@ -398,13 +398,34 @@
             const mail = document.getElementById("mail").value;
             const numb = document.getElementById("numb").value;
             const comment = document.getElementById("comment").value;
+            
+            if (!name.value || !mail.value || !numb.value || !comment.value) {
+                alert("Please fill out all the required Information.");
+               
+            if (!name.value) name.classList.add("error");
+            if (!mail.value) mail.classList.add("error");
+            if (!numb.value) numb.classList.add("error");
+            if (!comment.value) comment.classList.add("error");
+         
+            return;
+            }
 
+    
+            name.classList.remove("error");
+            mail.classList.remove("error");
+            numb.classList.remove("error");
+            comment.classList.remove("error");
+            
+            const now = new Date();
+            const timestamp = now.toISOString();
+    
+            
             const data = {
-            id: "7",
-            Name: name.value,
-            mailId: mail.value,
-            mob: numb.value,
-            message: comment.value
+            id: "5",
+            Name: name,
+            mailId: mail,
+            mob: numb,
+            message: comment
             };
 
             const gql = `
@@ -434,22 +455,11 @@
 
             const response = await result.json();
             console.table(response.data.createPerson);
-
-            if (response.data.createPerson) {
-               window.alert("Thank you for your valualbe feedback");
-            }else{
-               window.alert("Feedback could not be sent. Please try again.");
-            }
-
-            name.value()="";
-            mail.value()="";
-            numb.value()="";
-            comment.value()="";
          }
       </script>
       <!-- contact section end -->
       <!-- footer section start -->
-      <div class="footer_section layout_padding">
+      <div cout_padding">
          <div class="container">
             <div class="row">
                <div class="col-lg-3 col-sm-6">
