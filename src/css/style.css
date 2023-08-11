@@ -16,7 +16,7 @@
 @import url(animate.min.css);
 @import url(normalize.css);
 @import url(icomoon.css);
-@import url(css/font-awesome.min.css);
+@import url(font-awesome.min.css);
 @import url(meanmenu.css);
 @import url(owl.carousel.min.css);
 @import url(swiper.min.css);
@@ -839,7 +839,7 @@ a:hover {
 }
 
 .error{
-    border: 2px solid red;
+    border: 3px solid red;
 }
 
 .send_btn {
