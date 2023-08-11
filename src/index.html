@@ -367,10 +367,10 @@
                            <input required type="text" id="name" class="email-bt" placeholder="Name*" name="Name">
                         </div>
                         <div class="form-group">
-                           <input required type="text" id="mail" class="email-bt" placeholder="Email*" name="Email">
+                           <input required type="email" id="mail" class="email-bt" placeholder="Email*" name="Email">
                         </div>
                         <div class="form-group">
-                           <input required type="text" id="numb" class="email-bt" placeholder="Phone Number*" name="mobile">
+                           <input required type="tel" id="numb" class="email-bt" placeholder="Phone Number*" name="mobile">
                         </div>
                         <div class="form-group">
                            <textarea required class="massage-bt" placeholder="Massage*" rows="5" id="comment" name="Massage*"></textarea>
@@ -400,11 +400,11 @@
             const comment = document.getElementById("comment").value;
 
             const data = {
-            id: "5",
-            Name: name,
-            mailId: mail,
-            mob: numb,
-            message: comment
+            id: "7",
+            Name: name.value,
+            mailId: mail.value,
+            mob: numb.value,
+            message: comment.value
             };
 
             const gql = `
@@ -434,6 +434,17 @@
 
             const response = await result.json();
             console.table(response.data.createPerson);
+
+            if (response.data.createPerson) {
+               window.alert("Thank you for your valualbe feedback");
+            }else{
+               window.alert("Feedback could not be sent. Please try again.");
+            }
+
+            name.value()="";
+            mail.value()="";
+            numb.value()="";
+            comment.value()="";
          }
       </script>
       <!-- contact section end -->
