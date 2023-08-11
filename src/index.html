@@ -399,33 +399,33 @@
             const numb = document.getElementById("numb").value;
             const comment = document.getElementById("comment").value;
             
-            if (!name.value || !mail.value || !numb.value || !comment.value) {
-                alert("Please fill out all the required Information.");
+            // if (!name.value || !mail.value || !numb.value || !comment.value) {
+            //     alert("Please fill out all the required Information.");
                
-            if (!name.value) name.classList.add("error");
-            if (!mail.value) mail.classList.add("error");
-            if (!numb.value) numb.classList.add("error");
-            if (!comment.value) comment.classList.add("error");
+            // if (!name.value) name.classList.add("error");
+            // if (!mail.value) mail.classList.add("error");
+            // if (!numb.value) numb.classList.add("error");
+            // if (!comment.value) comment.classList.add("error");
          
-            return;
-            }
+            // return;
+            // }
 
     
-            name.classList.remove("error");
-            mail.classList.remove("error");
-            numb.classList.remove("error");
-            comment.classList.remove("error");
+            // name.classList.remove("error");
+            // mail.classList.remove("error");
+            // numb.classList.remove("error");
+            // comment.classList.remove("error");
             
-            const now = new Date();
-            const timestamp = now.toISOString();
+            // const now = new Date();
+            // const timestamp = now.toISOString();
     
             
             const data = {
             id: "5",
-            Name: name,
-            mailId: mail,
-            mob: numb,
-            message: comment
+            Name: name.value,
+            mailId: mail.value,
+            mob: numb.value,
+            message: comment.value
             };
 
             const gql = `
@@ -455,6 +455,14 @@
 
             const response = await result.json();
             console.table(response.data.createPerson);
+
+            if (response.data.createPerson) {
+               console.log("feedback submitted");
+               window.alert("Thank You for your valuable feedback.");
+            }else{
+               console.log("feedback not submitted");
+               window.alert("Feedback not sent. Please try again.");
+            }
          }
       </script>
       <!-- contact section end -->
