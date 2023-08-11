@@ -364,7 +364,7 @@
                   <div class="mail_section">
                      <div class="email_text">
                         <div class="form-group">
-                           <input required type="text" id="name" class="email-bt" placeholder="Name*" name="Name">
+                           <input required type="text" id="user" class="email-bt" placeholder="Name*" name="Name">
                         </div>
                         <div class="form-group">
                            <input required type="email" id="mail" class="email-bt" placeholder="Email*" name="Email">
@@ -394,7 +394,7 @@
       <script>
          async function create() {
 
-            const name1 = document.getElementById("name").value;
+            const name1 = document.getElementById("user").value;
             const mail1 = document.getElementById("mail").value;
             const numb1 = document.getElementById("numb").value;
             const comment1 = document.getElementById("comment").value;
@@ -442,10 +442,10 @@
             if (response.data.createPerson) {
                console.log("feedback submitted");
                window.alert("Thank You for your valuable feedback.");
-               name1.value= "";
-               mail1.value= "";
-               numb1.value= "";
-               comment1.value= "";
+               user.value= "";
+               mail.value= "";
+               numb.value= "";
+               comment.value= "";
             }else{
                console.log("feedback not submitted");
                window.alert("Feedback not sent. Please try again.");
