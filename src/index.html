@@ -364,16 +364,16 @@
                   <div class="mail_section">
                      <div class="email_text">
                         <div class="form-group">
-                           name: <input required type="text" id="name" class="email-bt" placeholder="Name*" name="Name">
+                           <input required type="text" id="name" class="email-bt" placeholder="Name*" name="Name">
                         </div>
                         <div class="form-group">
-                           mail: <input required type="text" id="mail" class="email-bt" placeholder="Email*" name="Email">
+                           <input required type="text" id="mail" class="email-bt" placeholder="Email*" name="Email">
                         </div>
                         <div class="form-group">
-                           numb: <input required type="text" id="numb" class="email-bt" placeholder="Phone Number*" name="mobile">
+                           <input required type="text" id="numb" class="email-bt" placeholder="Phone Number*" name="mobile">
                         </div>
                         <div class="form-group">
-                           comment: <textarea required class="massage-bt" placeholder="Massage*" rows="5" id="comment" name="Massage*"></textarea>
+                           <textarea required class="massage-bt" placeholder="Massage*" rows="5" id="comment" name="Massage*"></textarea>
                         </div>
                         <div class="send_btn">
                            <!-- <div type="text" class="main_bt"><a href="#">SEND</a></div> -->
@@ -392,14 +392,14 @@
          </div>
       </div>
       <script>
-         async function create(name,mail,numb,comment) {
+         async function create() {
 
             const data = {
             id: "5",
-            Name: name,
-            mailId: mail,
-            mob: numb,
-            message: comment
+            Name: "Honey",
+            mailId: "abc@email.com",
+            mob: "0123456789",
+            message: "hello"
             };
 
             const gql = `
