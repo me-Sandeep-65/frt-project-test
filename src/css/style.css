@@ -19,7 +19,7 @@
 @import url(font-awesome.min.css);
 @import url(meanmenu.css);
 @import url(owl.carousel.min.css);
-@import url(swiper.min.css);
+/* @import url(swiper.min.css); */
 @import url(slick.css);
 @import url(jquery.fancybox.min.css);
 @import url(jquery-ui.css);
@@ -240,7 +240,7 @@ button {
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #f76d37;
+    color: #00b3ff;
 }
 
 .navbar {
@@ -254,7 +254,6 @@ button {
     color: #fff;
 }
 
-.logo {}
 
 /* header section end */
 
@@ -263,7 +262,7 @@ button {
 .banner_section {
     width: 100%;
     float: left;
-    background-image: url(../images/banner-bg.png);
+    background-image: url(../images/banner-bg.jpg);
     height: auto;
     background-size: 100%;
     padding: 10px 0px 25px 0px;
@@ -310,7 +309,7 @@ button {
     width: 100%;
     float: left;
     padding-right: 0;
-    background-color: #252525;
+    background-color: #1a7399;
     color: #fff;
     text-align: center;
     margin-right: 12px;
@@ -321,7 +320,7 @@ button {
 }
 
 .learnmore_bt a:hover {
-    background-color: #f76d37;
+    background-color: #00b3ff;
     color: #fff;
 }
 
@@ -356,7 +355,7 @@ button {
 #main_slider .carousel-control-prev:focus,
 #main_slider .carousel-control-prev:hover {
     color: #ffffff;
-    background-color: #f76d37;
+    background-color: #00b3ff;
 }
 
 /* banner section end */
@@ -378,7 +377,7 @@ button {
     width: 100%;
     float: left;
     font-size: 40px;
-    color: #f76d37;
+    color: #00b3ff;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -412,7 +411,7 @@ button {
     width: 100%;
     float: left;
     font-size: 18px;
-    background-color: #252525;
+    background-color: #1a7399;
     color: #ffffff;
     text-align: center;
     padding: 8px;
@@ -420,7 +419,7 @@ button {
 
 .read_bt a:hover {
     color: #ffffff;
-    background-color: #f76d37;
+    background-color: #00b3ff;
 }.about_img{
     margin-top: 100px;
 }
@@ -440,7 +439,7 @@ button {
     float: left;
     text-align: center;
     font-size: 40px;
-    color: #f76d37;
+    color: #00b3ff;
     font-weight: bold;
 }
 
@@ -517,18 +516,18 @@ img.image {
     text-align: center;
     font-size: 18px;
     color: #ffffff;
-    background-color: #252525;
+    background-color: #1a7399;
     padding: 10px 0px;
     margin-top: 40px;
 }
 
 .seemore_bt a:hover {
-    background-color: #f76d37;
+    background-color: #00b3ff;
     color: #ffffff;
 }
 
 a:hover {
-    color: #f76d37;
+    color: #00b3ff;
     text-decoration: underline;
 }
 
@@ -596,7 +595,7 @@ a:hover {
 
 .box_main {
     width: 100%;
-    background-color: #f76d37;
+    background-color: #00b3ff;
     padding: 40px 30px;
     box-shadow: 0px 0px 18px -6px;
 }
@@ -662,7 +661,7 @@ a:hover {
 
 .readmore_bt a:hover {
     color: #ffffff;
-    background-color: #f76d37;
+    background-color: #00b3ff;
 }
 
 /* services section end */
@@ -678,7 +677,7 @@ a:hover {
     width: 100%;
     float: left;
     font-size: 40px;
-    color: #f76d37;
+    color: #00b3ff;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
 }
@@ -732,7 +731,7 @@ a:hover {
     width: 100%;
     float: left;
     font-size: 24px;
-    color: #f76d37;
+    color: #00b3ff;
     text-transform: uppercase;
     padding-left: 100px;
     font-weight: bold;
@@ -760,7 +759,7 @@ a:hover {
     margin-right: 3px;
     margin-left: 3px;
     text-indent: -999px;
-    background-color: #252525;
+    background-color: #1a7399;
     border-radius: 20px;
 }
 
@@ -769,7 +768,10 @@ a:hover {
 }
 
 .carousel-indicators .active {
-    background-color: #f76d37;
+    background-color: #00b3ff;
+}
+.qicon{
+    margin-bottom: 7px;
 }
 
 /* client section end */
@@ -786,7 +788,7 @@ a:hover {
     float: left;
     font-size: 40px;
     text-align: center;
-    color: #f76d37;
+    color: #00b3ff;
     font-weight: bold;
 }
 
@@ -798,7 +800,7 @@ a:hover {
 .mail_section {
     width: 100%;
     float: left;
-    background-image: url(../images/img-9.jpg);
+    background-image: url(../images/img-4.jpg);
     height: auto;
     padding: 23px 70px;
     background-repeat: no-repeat;
@@ -853,7 +855,7 @@ a:hover {
 
 .button{
     color: #fff; 
-    background-color: #d33a11; 
+    background-color: #00b3ff; 
     font-size: 16px; 
     text-align: center; 
     padding: 15px 50px 12px 50px; 
@@ -870,7 +872,7 @@ a:hover {
 
 .btn111:active{
     color: #fff; 
-    background-color: #d33a11; 
+    background-color: #00b3ff; 
     transition: 0.5s;
 }
 
@@ -928,7 +930,7 @@ a:hover {
 }
 
 .footer_menu li a:hover {
-    color: #f76d37;
+    color: #00b3ff;
 }
 
 .link_text {
@@ -961,7 +963,7 @@ a:hover {
 }
 
 .location_text li a:hover {
-    color: #f76d37;
+    color: #00b3ff;
 }
 
 .padding_left_10 {
@@ -994,7 +996,7 @@ a:hover {
 }
 
 .Developer_text a:hover {
-    color: #f76d37;
+    color: #00b3ff;
 }
 
 
