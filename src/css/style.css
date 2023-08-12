@@ -390,6 +390,7 @@ button {
     color: #4c4c4b;
     margin: 0px;
     padding-top: 10px;
+    text-align: justify;
 }
 
 .about_text {
@@ -420,6 +421,8 @@ button {
 .read_bt a:hover {
     color: #ffffff;
     background-color: #f76d37;
+}.about_img{
+    margin-top: 100px;
 }
 
 /* about section end */
@@ -536,7 +539,7 @@ a:hover {
 .services_section {
     width: 100%;
     float: left;
-    background-image: url(../images/services-bg.png);
+    background-image: url(../images/services-bg.JPG);
     height: auto;
     padding-bottom: 100px;
     background-attachment: fixed;
@@ -795,7 +798,7 @@ a:hover {
 .mail_section {
     width: 100%;
     float: left;
-    background-image: url(../images/img-9.png);
+    background-image: url(../images/img-9.jpg);
     height: auto;
     padding: 23px 70px;
     background-repeat: no-repeat;
@@ -901,10 +904,12 @@ a:hover {
     font-size: 14px;
     color: #ffffff;
     margin: 0px;
+    text-align: justify;
 }
 
 .footer_menu {
     width: 100%;
+    text-align: center;
     float: left;
 }
 
@@ -926,7 +931,7 @@ a:hover {
     color: #f76d37;
 }
 
-.dummy_text {
+.link_text {
     width: 30%;
     float: left;
     font-size: 14px;
@@ -937,6 +942,7 @@ a:hover {
 .location_text {
     width: 100%;
     float: left;
+    text-align: justify;
 }
 
 .location_text ul {
@@ -965,16 +971,16 @@ a:hover {
 
 /* footer section end */
 
-/* copyright section start */
+/* Developer section start */
 
-.copyright_section {
+.Developer_section {
     width: 100%;
     float: left;
     background-color: #ffffff;
     height: auto;
 }
 
-.copyright_text {
+.Developer_text {
     width: 100%;
     float: left;
     font-size: 16px;
@@ -983,16 +989,16 @@ a:hover {
     margin-left: 0px;
 }
 
-.copyright_text a {
+.Developer_text a {
     color: #252525;
 }
 
-.copyright_text a:hover {
+.Developer_text a:hover {
     color: #f76d37;
 }
 
 
-/* copyright section end */
+/* Developer section end */
 
 .margin_top90 {
     margin-top: 90px;
