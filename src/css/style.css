@@ -340,10 +340,10 @@ button {
 #main_slider .carousel-control-prev {
     width: 45px;
     height: 45px;
-    background: #fff;
+    background: #1a7399;
     opacity: 1;
     font-size: 30px;
-    color: #333333;
+    color: #ffffff;
     margin: 0 auto;
     z-index: 1;
     margin: 0 auto;
@@ -526,25 +526,20 @@ img.image {
     color: #ffffff;
 }
 
-a:hover {
-    color: #00b3ff;
-    text-decoration: underline;
-}
-
 /* gallery section end */
 
-/* services section start */
+/* places section start */
 
-.services_section {
+.places_section {
     width: 100%;
     float: left;
-    background-image: url(../images/services-bg.JPG);
+    background-image: url(../images/places-bg.JPG);
     height: auto;
     padding-bottom: 100px;
     background-attachment: fixed;
 }
 
-.services_taital {
+.places_taital {
     width: 100%;
     float: left;
     font-size: 40px;
@@ -553,7 +548,7 @@ a:hover {
     text-align: center;
 }
 
-.services_text {
+.places_text {
     width: 100%;
     float: left;
     font-size: 16px;
@@ -573,8 +568,9 @@ a:hover {
 }
 
 .house_icon img {
-    width: 45px;
-    min-height: 50px;
+    width: 100px;
+    min-height: 100px;
+    border-radius: 50%;
 }
 
 .box_main .house_icon .image_2 {
@@ -601,11 +597,11 @@ a:hover {
 }
 
 .box_main:hover .decorate_text {
-    color: #000;
+    color: #1a7399;
 }
 
 .box_main:hover .tation_text {
-    color: #000;
+    color: #1a7399;
 }
 
 .box_main:hover .readmore_bt {
@@ -614,10 +610,10 @@ a:hover {
 
 .box_main:hover .readmore_bt a {
     color: #ffffff;
-    background-color: #000;
+    background-color: #1a7399;
 }
 
-.services_section_2 {
+.places_section_2 {
     width: 100%;
     float: left;
     padding-top: 50px;
@@ -659,12 +655,16 @@ a:hover {
     text-transform: uppercase;
 }
 
-.readmore_bt a:hover {
+.box_main:hover .readmore_bt a:hover {
     color: #ffffff;
     background-color: #00b3ff;
 }
+a:hover {
+    color: #00b3ff;
+    text-decoration: underline;
+}
 
-/* services section end */
+/* places section end */
 
 /* client section start */
 
