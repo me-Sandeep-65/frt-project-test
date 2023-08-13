@@ -422,7 +422,8 @@ button {
     color: #ffffff;
     background-color: #00b3ff;
 }.about_img{
-    margin-top: 100px;
+    padding-left: 60px;
+    margin-top: 80px;
 }
 
 /* about section end */
@@ -881,7 +882,7 @@ a:hover {
 }
 
 .padding_0 {
-    padding: 0px;
+    padding: 10px;
 }
 
 /* contact section end */
