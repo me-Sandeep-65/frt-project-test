@@ -1007,6 +1007,47 @@ a:hover {
 
 /* Developer section end */
 
+/* place-page section start */
+
+.place_section {
+    width: 100%;
+    float: left;
+    padding-bottom: 40px;
+}
+
+.place_title_main {
+    width: 100%;
+    float: left;
+    padding: 120px 0px;
+}
+
+.place_title {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #00b3ff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.place_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #4c4c4b;
+    margin: 0px;
+    padding-top: 10px;
+    text-align: justify;
+}
+
+.place_img{
+    padding-left: 60px;
+    margin-top: 80px;
+}
+
+/* about section end */
+
 .margin_top90 {
     margin-top: 90px;
 }
