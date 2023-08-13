@@ -19,7 +19,7 @@
 @import url(font-awesome.min.css);
 @import url(meanmenu.css);
 @import url(owl.carousel.min.css);
-@import url(swiper.min.css);
+/* @import url(swiper.min.css); */
 @import url(slick.css);
 @import url(jquery.fancybox.min.css);
 @import url(jquery-ui.css);
@@ -240,7 +240,7 @@ button {
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #f76d37;
+    color: #00b3ff;
 }
 
 .navbar {
@@ -254,7 +254,6 @@ button {
     color: #fff;
 }
 
-.logo {}
 
 /* header section end */
 
@@ -263,7 +262,7 @@ button {
 .banner_section {
     width: 100%;
     float: left;
-    background-image: url(../images/banner-bg.png);
+    background-image: url(../images/banner-bg.jpg);
     height: auto;
     background-size: 100%;
     padding: 10px 0px 25px 0px;
@@ -310,7 +309,7 @@ button {
     width: 100%;
     float: left;
     padding-right: 0;
-    background-color: #252525;
+    background-color: #1a7399;
     color: #fff;
     text-align: center;
     margin-right: 12px;
@@ -321,7 +320,7 @@ button {
 }
 
 .learnmore_bt a:hover {
-    background-color: #f76d37;
+    background-color: #00b3ff;
     color: #fff;
 }
 
@@ -341,10 +340,10 @@ button {
 #main_slider .carousel-control-prev {
     width: 45px;
     height: 45px;
-    background: #fff;
+    background: #1a7399;
     opacity: 1;
     font-size: 30px;
-    color: #333333;
+    color: #ffffff;
     margin: 0 auto;
     z-index: 1;
     margin: 0 auto;
@@ -356,7 +355,7 @@ button {
 #main_slider .carousel-control-prev:focus,
 #main_slider .carousel-control-prev:hover {
     color: #ffffff;
-    background-color: #f76d37;
+    background-color: #00b3ff;
 }
 
 /* banner section end */
@@ -378,7 +377,7 @@ button {
     width: 100%;
     float: left;
     font-size: 40px;
-    color: #f76d37;
+    color: #00b3ff;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -390,6 +389,7 @@ button {
     color: #4c4c4b;
     margin: 0px;
     padding-top: 10px;
+    text-align: justify;
 }
 
 .about_text {
@@ -411,7 +411,7 @@ button {
     width: 100%;
     float: left;
     font-size: 18px;
-    background-color: #252525;
+    background-color: #1a7399;
     color: #ffffff;
     text-align: center;
     padding: 8px;
@@ -419,7 +419,9 @@ button {
 
 .read_bt a:hover {
     color: #ffffff;
-    background-color: #f76d37;
+    background-color: #00b3ff;
+}.about_img{
+    margin-top: 100px;
 }
 
 /* about section end */
@@ -437,7 +439,7 @@ button {
     float: left;
     text-align: center;
     font-size: 40px;
-    color: #f76d37;
+    color: #00b3ff;
     font-weight: bold;
 }
 
@@ -514,35 +516,30 @@ img.image {
     text-align: center;
     font-size: 18px;
     color: #ffffff;
-    background-color: #252525;
+    background-color: #1a7399;
     padding: 10px 0px;
     margin-top: 40px;
 }
 
 .seemore_bt a:hover {
-    background-color: #f76d37;
+    background-color: #00b3ff;
     color: #ffffff;
-}
-
-a:hover {
-    color: #f76d37;
-    text-decoration: underline;
 }
 
 /* gallery section end */
 
-/* services section start */
+/* places section start */
 
-.services_section {
+.places_section {
     width: 100%;
     float: left;
-    background-image: url(../images/services-bg.png);
+    background-image: url(../images/places-bg.JPG);
     height: auto;
     padding-bottom: 100px;
     background-attachment: fixed;
 }
 
-.services_taital {
+.places_taital {
     width: 100%;
     float: left;
     font-size: 40px;
@@ -551,7 +548,7 @@ a:hover {
     text-align: center;
 }
 
-.services_text {
+.places_text {
     width: 100%;
     float: left;
     font-size: 16px;
@@ -571,8 +568,9 @@ a:hover {
 }
 
 .house_icon img {
-    width: 45px;
-    min-height: 50px;
+    width: 100px;
+    min-height: 100px;
+    border-radius: 50%;
 }
 
 .box_main .house_icon .image_2 {
@@ -593,17 +591,17 @@ a:hover {
 
 .box_main {
     width: 100%;
-    background-color: #f76d37;
+    background-color: #00b3ff;
     padding: 40px 30px;
     box-shadow: 0px 0px 18px -6px;
 }
 
 .box_main:hover .decorate_text {
-    color: #000;
+    color: #1a7399;
 }
 
 .box_main:hover .tation_text {
-    color: #000;
+    color: #1a7399;
 }
 
 .box_main:hover .readmore_bt {
@@ -612,10 +610,10 @@ a:hover {
 
 .box_main:hover .readmore_bt a {
     color: #ffffff;
-    background-color: #000;
+    background-color: #1a7399;
 }
 
-.services_section_2 {
+.places_section_2 {
     width: 100%;
     float: left;
     padding-top: 50px;
@@ -657,12 +655,16 @@ a:hover {
     text-transform: uppercase;
 }
 
-.readmore_bt a:hover {
+.box_main:hover .readmore_bt a:hover {
     color: #ffffff;
-    background-color: #f76d37;
+    background-color: #00b3ff;
+}
+a:hover {
+    color: #00b3ff;
+    text-decoration: underline;
 }
 
-/* services section end */
+/* places section end */
 
 /* client section start */
 
@@ -675,7 +677,7 @@ a:hover {
     width: 100%;
     float: left;
     font-size: 40px;
-    color: #f76d37;
+    color: #00b3ff;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
 }
@@ -729,7 +731,7 @@ a:hover {
     width: 100%;
     float: left;
     font-size: 24px;
-    color: #f76d37;
+    color: #00b3ff;
     text-transform: uppercase;
     padding-left: 100px;
     font-weight: bold;
@@ -757,7 +759,7 @@ a:hover {
     margin-right: 3px;
     margin-left: 3px;
     text-indent: -999px;
-    background-color: #252525;
+    background-color: #1a7399;
     border-radius: 20px;
 }
 
@@ -766,7 +768,10 @@ a:hover {
 }
 
 .carousel-indicators .active {
-    background-color: #f76d37;
+    background-color: #00b3ff;
+}
+.qicon{
+    margin-bottom: 7px;
 }
 
 /* client section end */
@@ -783,7 +788,7 @@ a:hover {
     float: left;
     font-size: 40px;
     text-align: center;
-    color: #f76d37;
+    color: #00b3ff;
     font-weight: bold;
 }
 
@@ -795,7 +800,7 @@ a:hover {
 .mail_section {
     width: 100%;
     float: left;
-    background-image: url(../images/img-9.png);
+    background-image: url(../images/img-4.jpg);
     height: auto;
     padding: 23px 70px;
     background-repeat: no-repeat;
@@ -850,7 +855,7 @@ a:hover {
 
 .button{
     color: #fff; 
-    background-color: #d33a11; 
+    background-color: #00b3ff; 
     font-size: 16px; 
     text-align: center; 
     padding: 15px 50px 12px 50px; 
@@ -867,7 +872,7 @@ a:hover {
 
 .btn111:active{
     color: #fff; 
-    background-color: #d33a11; 
+    background-color: #00b3ff; 
     transition: 0.5s;
 }
 
@@ -901,10 +906,12 @@ a:hover {
     font-size: 14px;
     color: #ffffff;
     margin: 0px;
+    text-align: justify;
 }
 
 .footer_menu {
     width: 100%;
+    text-align: center;
     float: left;
 }
 
@@ -923,10 +930,10 @@ a:hover {
 }
 
 .footer_menu li a:hover {
-    color: #f76d37;
+    color: #00b3ff;
 }
 
-.dummy_text {
+.link_text {
     width: 30%;
     float: left;
     font-size: 14px;
@@ -937,6 +944,7 @@ a:hover {
 .location_text {
     width: 100%;
     float: left;
+    text-align: justify;
 }
 
 .location_text ul {
@@ -955,7 +963,7 @@ a:hover {
 }
 
 .location_text li a:hover {
-    color: #f76d37;
+    color: #00b3ff;
 }
 
 .padding_left_10 {
@@ -965,16 +973,16 @@ a:hover {
 
 /* footer section end */
 
-/* copyright section start */
+/* Developer section start */
 
-.copyright_section {
+.Developer_section {
     width: 100%;
     float: left;
     background-color: #ffffff;
     height: auto;
 }
 
-.copyright_text {
+.Developer_text {
     width: 100%;
     float: left;
     font-size: 16px;
@@ -983,16 +991,16 @@ a:hover {
     margin-left: 0px;
 }
 
-.copyright_text a {
+.Developer_text a {
     color: #252525;
 }
 
-.copyright_text a:hover {
-    color: #f76d37;
+.Developer_text a:hover {
+    color: #00b3ff;
 }
 
 
-/* copyright section end */
+/* Developer section end */
 
 .margin_top90 {
     margin-top: 90px;
