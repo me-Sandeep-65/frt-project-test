@@ -287,7 +287,7 @@ button {
     width: 100%;
     float: left;
     font-size: 70px;
-    color: #fdfcfa;
+    color: #fff;
     font-weight: bold;
     padding-bottom: 0px;
 }
@@ -299,6 +299,7 @@ button {
     color: #fff;
     margin: 0px;
     padding-bottom: 30px;
+    font-weight: bold;
 }
 
 .learnmore_bt {
@@ -616,7 +617,7 @@ img.image {
 .places_section_2 {
     width: 100%;
     float: left;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 .decorate_text {
@@ -662,6 +663,9 @@ img.image {
 a:hover {
     color: #00b3ff;
     text-decoration: underline;
+}
+.row{
+    padding-top: 30px;
 }
 
 /* places section end */
