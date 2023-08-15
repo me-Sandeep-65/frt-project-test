@@ -5,24 +5,27 @@ async function create() {
     const numb1 = document.getElementById("numb").value;
     const comment1 = document.getElementById("comment").value;
 
-    if (!name1 || !mail1 || !numb1 || !comment1) {
-    
-       if (!name1) user.classList.add("error"); else user.classList.remove("error");
+      if (!name1 || !mail1 || !numb1 || !comment1) {
+      
+         if (!name1) user.classList.add("error"); else user.classList.remove("error");
 
-       if (!mail1) mail.classList.add("error"); else mail.classList.remove("error");
+         if (!mail1) mail.classList.add("error"); else mail.classList.remove("error");
 
-       if (!numb1) numb.classList.add("error");else numb.classList.remove("error");
+         if (!numb1) numb.classList.add("error");else numb.classList.remove("error");
 
-       if (!comment1) comment.classList.add("error");else comment.classList.remove("error");
+         if (!comment1) comment.classList.add("error");else comment.classList.remove("error");
 
-       alert("Please fill out all the required fields.");
-       
-       return; 
-    }
+         alert("Please fill out all the required fields.");
+         
+         return; 
+      }else{
+         user.classList.remove("error");
+         mail.classList.remove("error");
+         numb.classList.remove("error");
+         comment.classList.remove("error");      }
     
     const now = new Date();
     const timestamp = now.toISOString();
-
     
     const data = {
     id: timestamp,
