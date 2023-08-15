@@ -10,6 +10,13 @@ As we keep witnessing the incidents like tourists getting misbehaved by the loca
 This project will be providing a good amount of information about the all the place with some special tips which will help visitors in planning their trips easily and enjoying them safely. Also there is a feedback form for suggestions, user want to give. The data from the feedback form is being stored in an azure cosmos database account.
 
 ### Repo Explanation:
+   #### swa-db-connections
+   contains schema and api informations for queris and connection to the data base.
 
+   #### src
+      1. css contains all the needed css files including style.css
+      2. images contains all the image file used in the project
+      3. js contains all the javascript files needed throughout the project including the function that sends feedback data to the server
+      4. places contains all the place pages linked in the project for dipiction
 
 ##### This project is a mere prototype and a fully working release.
