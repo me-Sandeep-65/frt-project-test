@@ -12,22 +12,22 @@ This project will be providing a good amount of information about the all the pl
 ## The 2 Azure tools used in the project are:-
    1. Azure Static Web App
 
-      ![Static Web App overview](https://github.com/me-Sandeep-65/frt-project-test/tree/master/src/images/webapp.PNG)
+      ![Static Web App overview](https://github.com/me-Sandeep-65/frt-project-test/tree/master/src/images/webapp.png)
       This image dipicts the use of Azure Static Web App service.
 
 
    2. Azure Cosmos DB for NoSQL
 
-      ![Static Web App overview](https://github.com/me-Sandeep-65/frt-project-test/tree/master/src/images/cosmosdb.PNG)
+      ![Static Web App overview](https://github.com/me-Sandeep-65/frt-project-test/tree/master/src/images/cosmosdb.png)
       This image dipicts the creation of Azure Cosmos DB.
 
-      ![Static Web App overview](https://github.com/me-Sandeep-65/frt-project-test/tree/master/src/images/dbcon.PNG)
+      ![Static Web App overview](https://github.com/me-Sandeep-65/frt-project-test/tree/master/src/images/dbcon.png)
       This image dipicts the connection between the Web App and the Cosmos DB database server.
 
-      ![Static Web App overview](https://github.com/me-Sandeep-65/frt-project-test/tree/master/src/images/form.PNG)
+      ![Static Web App overview](https://github.com/me-Sandeep-65/frt-project-test/tree/master/src/images/form.png)
       This image is showing the feedback form from which we are taking data and storing it to the Cosmos DB server.
 
-      ![Static Web App overview](https://github.com/me-Sandeep-65/frt-project-test/tree/master/src/images/dataexp.PNG)
+      ![Static Web App overview](https://github.com/me-Sandeep-65/frt-project-test/tree/master/src/images/dataexp.png)
       This image dipicts the storage of data taken from the above form into the Cosmos DB database.
 
 
