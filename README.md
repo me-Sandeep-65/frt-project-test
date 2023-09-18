@@ -9,6 +9,29 @@ As we keep witnessing the incidents like tourists getting misbehaved by the loca
 ### Approach and Tools Used:
 This project will be providing a good amount of information about the all the place with some special tips which will help visitors in planning their trips easily and enjoying them safely. Also there is a feedback form for suggestions, user want to give. The data from the feedback form is being stored in an azure cosmos database account.
 
+## The 2 Azure tools used in the project are:-
+   1. Azure Static Web App
+
+      ![Static Web App overview](https://github.com/me-Sandeep-65/frt-project-test/tree/master/src/images/webapp.PNG)
+      This image dipicts the use of Azure Static Web App service.
+
+
+   2. Azure Cosmos DB for NoSQL
+
+      ![Static Web App overview](https://github.com/me-Sandeep-65/frt-project-test/tree/master/src/images/cosmosdb.PNG)
+      This image dipicts the creation of Azure Cosmos DB.
+
+      ![Static Web App overview](https://github.com/me-Sandeep-65/frt-project-test/tree/master/src/images/dbcon.PNG)
+      This image dipicts the connection between the Web App and the Cosmos DB database server.
+
+      ![Static Web App overview](https://github.com/me-Sandeep-65/frt-project-test/tree/master/src/images/form.PNG)
+      This image is showing the feedback form from which we are taking data and storing it to the Cosmos DB server.
+
+      ![Static Web App overview](https://github.com/me-Sandeep-65/frt-project-test/tree/master/src/images/dataexp.PNG)
+      This image dipicts the storage of data taken from the above form into the Cosmos DB database.
+
+
+
 ### Repo Explanation:
    #### swa-db-connections
    contains schema and api informations for queris and connection to the data base.
